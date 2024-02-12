@@ -1,3 +1,4 @@
+import 'package:codex_app/homepage.dart';
 import 'package:codex_app/program1.dart';
 import 'package:flutter/material.dart';
 
@@ -11,7 +12,7 @@ class MainApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      home: CodeX(),
+      home: Box(),
       debugShowCheckedModeBanner: false,
     );
   }
